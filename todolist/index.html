@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">To-Do List</h1>
+        <div class="row mb-3">
+            <div class="col-md-8">
+                <input type="text" id="newTask" class="form-control" placeholder="Add a new task">
+            </div>
+            <div class="col-md-4">
+                <button id="addTask" class="btn btn-primary btn-block">Add Task</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h2>All Tasks</h2>
+                <ul id="tasks" class="list-group"></ul>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <h2>Completed Tasks</h2>
+                    <ul id="completedTasks" class="list-group"></ul>
+                </div>
+                <div>
+                    <h2>Statistics</h2>
+                    <p>Total Tasks: <span id="totalTasks">0</span></p>
+                    <p>Completed Tasks: <span id="completedCount">0</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <input type="text" id="search" class="form-control" placeholder="Search tasks">
+            </div>
+            <div class="col-md-4">
+                <button id="deleteCompleted" class="btn btn-danger btn-block">Delete Completed Tasks</button>
+                <button id="sortTasks" class="btn btn-secondary btn-block mt-2">Sort by Completion</button>
+            </div>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

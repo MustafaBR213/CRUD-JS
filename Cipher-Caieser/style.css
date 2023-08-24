@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 100px;
+}
+.cir{
+    width: 80%;
+    margin: auto;
+    
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.inputs{
+    text-align: center;
+}
+input{
+    width:100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+}
+input:focus{
+    background: #000;
+    transform: scale(1.1);
+}
+input[type="submit"]{
+    width: 50%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background: #530274;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+    background: #51025f;
+    letter-spacing: 1px;
+
+}
+
+.outputs{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+select {
+    width: 100.7%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+    font-size: 14px;
+}
+
+select:focus {
+    background: #000;
+    transform: scale(1.1);
+}
